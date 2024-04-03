@@ -14,6 +14,7 @@ while (condition) {
             name: "addMore",
             type: "confirm",
             message: "Do you want to add more Todos",
+            default: "true"
         },
     ]);
     todos.push(addTask.addTodo);
